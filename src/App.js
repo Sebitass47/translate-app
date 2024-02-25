@@ -68,13 +68,14 @@ const App = () => {
       `https://api.mymemory.translated.net/get?q=${textInput}!&langpair=${idiomasCompletos[languageInput]}|${idiomasCompletos[languageOutput]}`
     )
     const data = await response.json()
-    console.log(data)
     setTextOutput(data['responseData']['translatedText'])
     if ('detectedLanguage' in data['responseData']) {
-      const idiomaOrigen = obtenerNombreIdioma(data['responseData']['detectedLanguage'].split('-')[0], idiomas)
-      console.log(idiomaOrigen)
-      setLanguageInput(idiomaOrigen)
-      setOptionLanguageInput(idiomaOrigen)
+      const idiomaOrigen = obtenerNombreIdioma(data['responseData']['detectedLanguage'].split('-')[0], idiomasCompletos)
+      if (idiomaOrigen != null){
+        setLanguageInput(idiomaOrigen)
+        if (!['English', 'French'].includes(idiomaOrigen))
+        setOptionLanguageInput(idiomaOrigen)
+      }
     }
   }
 
