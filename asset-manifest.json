@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/translate-app/static/css/main.ecd31a09.css",
-    "main.js": "/translate-app/static/js/main.0a9f34d0.js",
+    "main.js": "/translate-app/static/js/main.1cff389c.js",
     "static/js/787.f16ab194.chunk.js": "/translate-app/static/js/787.f16ab194.chunk.js",
     "static/media/logo.svg": "/translate-app/static/media/logo.6c77836330cbdf859782cade8fadf2e0.svg",
     "static/media/intercambiar_svg.svg": "/translate-app/static/media/intercambiar_svg.027b7ffd058473deefa9d9ac0ad889b2.svg",
@@ -11,11 +11,11 @@
     "static/media/traducir_svg.svg": "/translate-app/static/media/traducir_svg.6f9cc1184823f7c641a6ad009ab632f1.svg",
     "static/media/expandir_svg.svg": "/translate-app/static/media/expandir_svg.44a9fdc9f2cf76b2674c6d98326f4633.svg",
     "main.ecd31a09.css.map": "/translate-app/static/css/main.ecd31a09.css.map",
-    "main.0a9f34d0.js.map": "/translate-app/static/js/main.0a9f34d0.js.map",
+    "main.1cff389c.js.map": "/translate-app/static/js/main.1cff389c.js.map",
     "787.f16ab194.chunk.js.map": "/translate-app/static/js/787.f16ab194.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecd31a09.css",
-    "static/js/main.0a9f34d0.js"
+    "static/js/main.1cff389c.js"
   ]
 }
